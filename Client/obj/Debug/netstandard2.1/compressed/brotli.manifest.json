@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/bQkEeMJGs1_HuFHVTi8vf1Is6GqhX4s1Gukiq1YloAY=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/FTfTKxGnDOTD4Q6epazWGWTFEfTmPmAZ_MewpGpdXsA=.hash",
       "Source": "\/home\/monchkrit\/Code-House\/blazormovieswasm\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/blazormovieswasm.Client.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/blazormovieswasm.Client.dll.br"
     },
@@ -171,11 +171,6 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.DependencyInjection.Abstractions.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/v4LhihP26fP-dVajppSCZIrCVbkiALCJgAisyG2cmJQ=.hash",
-      "Source": "\/home\/monchkrit\/Code-House\/blazormovieswasm\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Web.dll",
-      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
-    },
-    {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/e0FY4g2Vt8TsXfafkXU2XnUgcYzjzPiFqb3KCylDb74=.hash",
       "Source": "\/home\/monchkrit\/Code-House\/blazormovieswasm\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Forms.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Forms.dll.br"
@@ -199,6 +194,11 @@
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/45ia6XmGIa5WI3cHUIE9KhVornlZleYW_B5FPpfD1wQ=.hash",
       "Source": "\/home\/monchkrit\/Code-House\/blazormovieswasm\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.Extensions.Logging.Abstractions.dll",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.Extensions.Logging.Abstractions.dll.br"
+    },
+    {
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/v4LhihP26fP-dVajppSCZIrCVbkiALCJgAisyG2cmJQ=.hash",
+      "Source": "\/home\/monchkrit\/Code-House\/blazormovieswasm\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/Microsoft.AspNetCore.Components.Web.dll",
+      "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.AspNetCore.Components.Web.dll.br"
     },
     {
       "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/K3dpli228kQQ75WVqoiIdmn8u8q8gZHixcWDdCHCRgU=.hash",
@@ -266,7 +266,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/7mBppEZyi_ZNmjOrnJrXVdUE8s0EAp1Ob1ZnY4HXTBI=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/PDqAxFRdMx9rGxORj6gn7LdQ4E-xg0R2D3nUnY15YdM=.hash",
       "Source": "\/home\/monchkrit\/Code-House\/blazormovieswasm\/Client\/obj\/Debug\/netstandard2.1\/blazor\/unlinked\/blazormovieswasm.Client.pdb",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/_bin\/blazormovieswasm.Client.pdb.br"
     },
@@ -296,7 +296,7 @@
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/gY7eEcnfdWT3PgJ9yyHRfZDsztlk0MZsqBRnx3A0vY8=.hash",
+      "InputSource": "obj\/Debug\/netstandard2.1\/integrity\/-CIvw8Kt0wHeMiwSlfdHk7aVjeqkjviNFdaaEqceRrA=.hash",
       "Source": "\/home\/monchkrit\/Code-House\/blazormovieswasm\/Client\/obj\/Debug\/netstandard2.1\/blazor\/blazor.boot.json",
       "Target": "obj\/Debug\/netstandard2.1\/compressed\/_framework\/blazor.boot.json.br"
     }

@@ -393,104 +393,6 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.Index",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.Index"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.Index",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazormovieswasm.Client.Pages.Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.MovieFilter",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieFilter",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.MovieFilter"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.MovieFilter",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazormovieswasm.Client.Pages.MovieFilter",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.MovieFilter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
         "Name": "blazormovieswasm.Client.Pages.Movies.CreateMovie",
         "AssemblyName": "blazormovieswasm.Client",
         "Documentation": null,
@@ -726,6 +628,55 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieFilter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.MovieFilter"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "blazormovieswasm.Client.Pages.People.CreatePerson",
         "AssemblyName": "blazormovieswasm.Client",
         "Documentation": null,
@@ -898,6 +849,55 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "blazormovieswasm.Client.Pages.People.PeopleIndex",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.Index",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.Index"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.Index",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazormovieswasm.Client.Pages.Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -1912,55 +1912,6 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Shared.NavMenu",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "NavMenu",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Shared.NavMenu"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Shared.NavMenu",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazormovieswasm.Client.Shared.NavMenu",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Shared.NavMenu",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
         "Name": "blazormovieswasm.Client.Shared.SurveyPrompt",
         "AssemblyName": "blazormovieswasm.Client",
         "Documentation": null,
@@ -2035,6 +1986,55 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "blazormovieswasm.Client.Shared.SurveyPrompt",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Shared.NavMenu",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "NavMenu",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Shared.NavMenu"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Shared.NavMenu",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazormovieswasm.Client.Shared.NavMenu",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Shared.NavMenu",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -18094,11 +18094,6 @@
       "FileKind": "component"
     },
     {
-      "FilePath": "/home/monchkrit/Code-House/blazormovieswasm/Client/Pages/MovieFilter.razor",
-      "TargetPath": "Pages\\MovieFilter.razor",
-      "FileKind": "component"
-    },
-    {
       "FilePath": "/home/monchkrit/Code-House/blazormovieswasm/Client/Pages/Counter.razor",
       "TargetPath": "Pages\\Counter.razor",
       "FileKind": "component"
@@ -18136,6 +18131,11 @@
     {
       "FilePath": "/home/monchkrit/Code-House/blazormovieswasm/Client/Shared/NavMenu.razor",
       "TargetPath": "Shared\\NavMenu.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/monchkrit/Code-House/blazormovieswasm/Client/Pages/Movies/MovieFilter.razor",
+      "TargetPath": "Pages\\Movies\\MovieFilter.razor",
       "FileKind": "component"
     },
     {
