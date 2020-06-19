@@ -1,0 +1,9 @@
+/home/monchkrit/Code-House/blazormovieswasm/Shared/bin/Debug/netstandard2.1/blazormovieswasm.Shared.deps.json
+/home/monchkrit/Code-House/blazormovieswasm/Shared/bin/Debug/netstandard2.1/blazormovieswasm.Shared.dll
+/home/monchkrit/Code-House/blazormovieswasm/Shared/bin/Debug/netstandard2.1/blazormovieswasm.Shared.pdb
+/home/monchkrit/Code-House/blazormovieswasm/Shared/obj/Debug/netstandard2.1/blazormovieswasm.Shared.csprojAssemblyReference.cache
+/home/monchkrit/Code-House/blazormovieswasm/Shared/obj/Debug/netstandard2.1/blazormovieswasm.Shared.AssemblyInfoInputs.cache
+/home/monchkrit/Code-House/blazormovieswasm/Shared/obj/Debug/netstandard2.1/blazormovieswasm.Shared.AssemblyInfo.cs
+/home/monchkrit/Code-House/blazormovieswasm/Shared/obj/Debug/netstandard2.1/blazormovieswasm.Shared.csproj.CoreCompileInputs.cache
+/home/monchkrit/Code-House/blazormovieswasm/Shared/obj/Debug/netstandard2.1/blazormovieswasm.Shared.dll
+/home/monchkrit/Code-House/blazormovieswasm/Shared/obj/Debug/netstandard2.1/blazormovieswasm.Shared.pdb

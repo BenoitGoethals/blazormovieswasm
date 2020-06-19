@@ -1,0 +1,64 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/monchkrit/Code-House/blazormovieswasm/Shared/blazormovieswasm.Shared.csproj": {}
+  },
+  "projects": {
+    "/home/monchkrit/Code-House/blazormovieswasm/Shared/blazormovieswasm.Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/monchkrit/Code-House/blazormovieswasm/Shared/blazormovieswasm.Shared.csproj",
+        "projectName": "blazormovieswasm.Shared",
+        "projectPath": "/home/monchkrit/Code-House/blazormovieswasm/Shared/blazormovieswasm.Shared.csproj",
+        "packagesPath": "/home/monchkrit/.nuget/packages/",
+        "outputPath": "/home/monchkrit/Code-House/blazormovieswasm/Shared/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/monchkrit/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "System.ComponentModel.Annotations": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/3.1.301/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

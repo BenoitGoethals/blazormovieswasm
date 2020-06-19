@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "e6WxXHbj0Y11zohWFSP/8pFdfEkM6AOnYS6DclD6+u7fkjQdNNpD8KGUcSZudl2TFoq/9X24hq01AEHfgtjK/A==",
+  "success": true,
+  "projectFilePath": "/home/monchkrit/Code-House/blazormovieswasm/Shared/blazormovieswasm.Shared.csproj",
+  "expectedPackageFiles": [
+    "/home/monchkrit/.nuget/packages/system.componentmodel.annotations/4.7.0/system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

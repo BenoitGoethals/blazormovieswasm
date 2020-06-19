@@ -1,0 +1,13 @@
+﻿@page "/movie/create"
+@inject NavigationManager navManager
+
+<h3>Create Movie</h3>
+
+<button class="btn btn-primary" @onclick="AddMovie">Add Movie</button>
+
+@code {
+  private void AddMovie() {
+    System.Console.WriteLine(navManager.Uri);
+    navManager.NavigateTo("movie");
+  }
+}

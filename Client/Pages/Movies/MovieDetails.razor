@@ -1,0 +1,16 @@
+﻿@page "/movie/{MovieId:int}"
+@page "/movie/{MovieId:int}/{MovieName}"
+
+<h3>MovieDetails</h3>
+
+@code {
+  [Parameter]
+  public int MovieId { get; set; }
+  [Parameter]
+  public string MovieName { get; set; }
+
+  protected override void OnInitialized()
+  {
+    System.Console.WriteLine($"The value of the route parameter is {MovieId}/{MovieName}");
+  }
+}
