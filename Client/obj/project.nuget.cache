@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "HM2mgbhYqFv1vHlzgNBeRc9ugBwPzr6jDcxKvLpULMNAD/VjD4fR07737M2eZv/iW1MzEfsYKfR6oOL0/mD9mw==",
+  "dgSpecHash": "kcQZDUxJpqCoEjsXLtmSxzvlCUi3qVb5HNgjyh9BEIUuA12iwp3s814kyCSLbnfSHpiPbktcuI8z+mg3vhSsxw==",
   "success": true,
   "projectFilePath": "/home/monchkrit/Code-House/blazormovieswasm/Client/blazormovieswasm.Client.csproj",
   "expectedPackageFiles": [
@@ -40,7 +40,8 @@
     "/home/monchkrit/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.1/system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/system.text.encodings.web/4.7.0/system.text.encodings.web.4.7.0.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/system.text.json/4.7.1/system.text.json.4.7.1.nupkg.sha512",
-    "/home/monchkrit/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512"
+    "/home/monchkrit/.nuget/packages/system.threading.tasks.extensions/4.5.2/system.threading.tasks.extensions.4.5.2.nupkg.sha512",
+    "/home/monchkrit/.nuget/packages/tewr.blazor.filereader/1.6.0.20166/tewr.blazor.filereader.1.6.0.20166.nupkg.sha512"
   ],
   "logs": []
 }

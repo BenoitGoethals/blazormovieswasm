@@ -1,3 +1,4 @@
 ﻿<StaticWebAssets Version="1.0">
+  <ContentRoot BasePath="_content/Tewr.Blazor.FileReader" Path="/home/monchkrit/.nuget/packages/tewr.blazor.filereader/1.6.0.20166/build/../staticwebassets/" />
   <ContentRoot BasePath="/" Path="/home/monchkrit/Code-House/blazormovieswasm/Client/bin/Debug/netstandard2.1/wwwroot/" />
 </StaticWebAssets>
