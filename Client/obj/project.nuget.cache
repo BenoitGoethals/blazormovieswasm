@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "kcQZDUxJpqCoEjsXLtmSxzvlCUi3qVb5HNgjyh9BEIUuA12iwp3s814kyCSLbnfSHpiPbktcuI8z+mg3vhSsxw==",
+  "dgSpecHash": "H7lAVcMNxdc1L3kAq1qoCD0JS9bprS2DKDOqvKwfQ2c9XJHoIcMHitXGTpP90oafRZrlO9YVGkqpdhn52AdG1g==",
   "success": true,
   "projectFilePath": "/home/monchkrit/Code-House/blazormovieswasm/Client/blazormovieswasm.Client.csproj",
   "expectedPackageFiles": [
+    "/home/monchkrit/.nuget/packages/markdig/0.20.0/markdig.0.20.0.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/microsoft.aspnetcore.authorization/3.1.3/microsoft.aspnetcore.authorization.3.1.3.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/microsoft.aspnetcore.components/3.1.3/microsoft.aspnetcore.components.3.1.3.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/microsoft.aspnetcore.components.analyzers/3.1.3/microsoft.aspnetcore.components.analyzers.3.1.3.nupkg.sha512",
