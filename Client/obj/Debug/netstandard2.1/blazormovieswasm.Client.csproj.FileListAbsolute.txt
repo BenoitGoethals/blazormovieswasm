@@ -396,8 +396,6 @@
 /home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/Razor/Pages/Movies/MovieFilter.razor.g.cs
 /home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/RazorDeclaration/Pages/People/PersonForm.razor.g.cs
 /home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/Razor/Pages/People/PersonForm.razor.g.cs
-/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/lnFWJB5bRqLalxZLqBTmf-w0iQyqtnIWxdT3FPeseH8=.hash
-/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/z3FBThYGfsR0fBqp5vekKYGFlTk0xGHjX42TT8HT2XQ=.hash
 /home/monchkrit/Code-House/blazormovieswasm/Client/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/Blazor.FileReader.dll
 /home/monchkrit/Code-House/blazormovieswasm/Client/bin/Debug/netstandard2.1/wwwroot/_framework/_bin/Blazor.FileReader.dll.gz
 /home/monchkrit/Code-House/blazormovieswasm/Client/bin/Debug/netstandard2.1/Blazor.FileReader.dll
@@ -413,9 +411,13 @@
 /home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/RazorDeclaration/Shared/RenderMarkdown.razor.g.cs
 /home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/Razor/Shared/InputMarkdown.razor.g.cs
 /home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/Razor/Shared/RenderMarkdown.razor.g.cs
-/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/Ga-aFr7gMcFKoiChryiIt8QVHSDqUWUBQbzeW-4l1_U=.hash
 /home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/07QUpKiAOGPdquenf0JSL1hS_SHh3QMgb_j-c_3_F3Q=.hash
-/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/xrL9874obHltj_lapD5Moz8zwB3boVrbzD3v94BXOkc=.hash
-/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/9M5owkOaMgfnptM8sMvkLRmHBzoDxfZJu8bi1w9W2NE=.hash
 /home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/compressed/_framework/_bin/Markdig.dll.gz
 /home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/compressed/_framework/_bin/Markdig.dll.br
+/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/RazorDeclaration/Pages/Movies/MovieForm.razor.g.cs
+/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/Razor/Pages/Movies/MovieForm.razor.g.cs
+/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/2ctvHUnTgRuRoegMl-KOHcgFWZzKGiLzuH9ZclLO3wc=.hash
+/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/27NUoxHLkFDWig7ffoQfV0y_yDyxhbBpyOjiyKYSOOA=.hash
+/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/wO9JIruPtjWzoUlnMTX8Hpj5_EnvzEoNDgic2-thBik=.hash
+/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/K53jwXzJ474ibkpbdpOFngZ6m3jFnRatNj0nPdnNszk=.hash
+/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/da8_4sf7O3VTWDh_jsCLayQnzjUlkIDnkhSzhRypYfE=.hash

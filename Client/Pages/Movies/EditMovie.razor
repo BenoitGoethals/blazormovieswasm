@@ -2,7 +2,25 @@
 
 <h3>EditMovie</h3>
 
+@if (Movie != null)
+{
+  <MovieForm Movie="Movie" OnValidSubmit="Edit" />
+}
+
+
 @code {
   [Parameter]
   public int MovieId { get; set; }
+  private Movie Movie;
+
+  protected override void OnInitialized()
+  {
+    Movie = new Movie() { Id = MovieId, Title = "Tester Movie" };
+  }
+
+  private void Edit()
+  {
+    System.Console.WriteLine("editing the movie...");
+    System.Console.WriteLine($"The movie is called {Movie.Title}");
+  }
 }

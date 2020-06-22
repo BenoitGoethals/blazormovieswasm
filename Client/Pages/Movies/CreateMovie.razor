@@ -3,11 +3,15 @@
 
 <h3>Create Movie</h3>
 
-<button class="btn btn-primary" @onclick="AddMovie">Add Movie</button>
+<MovieForm Movie="Movie" OnValidSubmit="AddMovie" />
 
 @code {
+  private Movie Movie = new Movie();
+  [Parameter]
+  public EventCallback OnValidSubmit { get; set; }
+
   private void AddMovie() {
-    System.Console.WriteLine(navManager.Uri);
-    navManager.NavigateTo("movie");
+    System.Console.WriteLine($"Movie {Movie.Title} created");
+    System.Console.WriteLine($"The trailer is at {Movie.Trailer}");
   }
 }
