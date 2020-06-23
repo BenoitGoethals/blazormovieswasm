@@ -25,6 +25,7 @@
       "blazormovieswasm.Server/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Components.WebAssembly.Server": "3.2.0",
+          "Microsoft.EntityFrameworkCore.Design": "3.1.5",
           "Microsoft.EntityFrameworkCore.SqlServer": "3.1.5",
           "blazormovieswasm.Client": "1.0.0",
           "blazormovieswasm.Shared": "1.0.0",
@@ -292,6 +293,17 @@
           "blazormovieswasm.Server.dll": {}
         }
       },
+      "Markdig/0.20.0": {
+        "runtime": {
+          "lib/netcoreapp3.1/Markdig.dll": {
+            "assemblyVersion": "0.20.0.0",
+            "fileVersion": "0.20.0.0"
+          }
+        },
+        "compile": {
+          "lib/netcoreapp3.1/Markdig.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/3.1.3": {
         "dependencies": {
           "Microsoft.AspNetCore.Metadata": "3.1.3",
@@ -423,7 +435,7 @@
           "ref/netcoreapp2.1/Microsoft.Bcl.HashCode.dll": {}
         }
       },
-      "Microsoft.CSharp/4.5.0": {},
+      "Microsoft.CSharp/4.7.0": {},
       "Microsoft.Data.SqlClient/1.0.19269.1": {
         "dependencies": {
           "Microsoft.Identity.Client": "3.0.8",
@@ -493,6 +505,18 @@
         }
       },
       "Microsoft.EntityFrameworkCore.Analyzers/3.1.5": {},
+      "Microsoft.EntityFrameworkCore.Design/3.1.5": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "Microsoft.EntityFrameworkCore.Relational": "3.1.5"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.EntityFrameworkCore.Design.dll": {
+            "assemblyVersion": "3.1.5.0",
+            "fileVersion": "3.100.520.27007"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore.Relational/3.1.5": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "3.1.5"
@@ -746,7 +770,7 @@
       },
       "Microsoft.Identity.Client/3.0.8": {
         "dependencies": {
-          "Microsoft.CSharp": "4.5.0",
+          "Microsoft.CSharp": "4.7.0",
           "System.ComponentModel.TypeConverter": "4.3.0",
           "System.Net.NameResolution": "4.3.0",
           "System.Runtime.Serialization.Formatters": "4.3.0",
@@ -1419,10 +1443,27 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Tewr.Blazor.FileReader/1.6.0.20166": {
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "3.1.3",
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Blazor.FileReader.dll": {
+            "assemblyVersion": "1.5.0.20109",
+            "fileVersion": "1.5.0.20109"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.0/Blazor.FileReader.dll": {}
+        }
+      },
       "blazormovieswasm.Client/1.0.0": {
         "dependencies": {
+          "Markdig": "0.20.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "3.2.0",
           "System.Net.Http.Json": "3.2.0",
+          "Tewr.Blazor.FileReader": "1.6.0.20166",
           "blazormovieswasm.Shared": "1.0.0"
         },
         "runtime": {
@@ -1433,6 +1474,9 @@
         }
       },
       "blazormovieswasm.Shared/1.0.0": {
+        "dependencies": {
+          "System.ComponentModel.Annotations": "4.7.0"
+        },
         "runtime": {
           "blazormovieswasm.Shared.dll": {}
         },
@@ -2984,6 +3028,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "Markdig/0.20.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-49Kuof5GSRdTnXlDvZ/+ucABl9l5oPA/jpIkFK8Zcnc0NiETj+rf5f4xoNr52a4Hs1DlcJmrRHv4xvZHMxnDFQ==",
+      "path": "markdig/0.20.0",
+      "hashPath": "markdig.0.20.0.nupkg.sha512"
+    },
     "Microsoft.AspNetCore.Authorization/3.1.3": {
       "type": "package",
       "serviceable": true,
@@ -3061,12 +3112,12 @@
       "path": "microsoft.bcl.hashcode/1.1.0",
       "hashPath": "microsoft.bcl.hashcode.1.1.0.nupkg.sha512"
     },
-    "Microsoft.CSharp/4.5.0": {
+    "Microsoft.CSharp/4.7.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-kaj6Wb4qoMuH3HySFJhxwQfe8R/sJsNJnANrvv8WdFPMoNbKY5htfNscv+LHCu5ipz+49m2e+WQXpLXr9XYemQ==",
-      "path": "microsoft.csharp/4.5.0",
-      "hashPath": "microsoft.csharp.4.5.0.nupkg.sha512"
+      "sha512": "sha512-pTj+D3uJWyN3My70i2Hqo+OXixq3Os2D1nJ2x92FFo6sk8fYS1m1WLNTs0Dc1uPaViH0YvEEwvzddQ7y4rhXmA==",
+      "path": "microsoft.csharp/4.7.0",
+      "hashPath": "microsoft.csharp.4.7.0.nupkg.sha512"
     },
     "Microsoft.Data.SqlClient/1.0.19269.1": {
       "type": "package",
@@ -3095,6 +3146,13 @@
       "sha512": "sha512-NhxlI6Qj/QUt79ApeBrpKo+a5TGt/UCddxd9rLHD7Zd6yLyfkDOMiyu4oPqhnMhpqmzo/gd79tW7BMwIxgEZCw==",
       "path": "microsoft.entityframeworkcore.analyzers/3.1.5",
       "hashPath": "microsoft.entityframeworkcore.analyzers.3.1.5.nupkg.sha512"
+    },
+    "Microsoft.EntityFrameworkCore.Design/3.1.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Bo5IVeCueESgeADKth/w9+IIwhMb1FgNrgB/egnHoTudnoZFffxPo/HVp8R5uyDIkBkEkfD7pTLy5szMyc8c1w==",
+      "path": "microsoft.entityframeworkcore.design/3.1.5",
+      "hashPath": "microsoft.entityframeworkcore.design.3.1.5.nupkg.sha512"
     },
     "Microsoft.EntityFrameworkCore.Relational/3.1.5": {
       "type": "package",
@@ -3711,6 +3769,13 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "Tewr.Blazor.FileReader/1.6.0.20166": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-wAWZrfKFWXJCpi+gH816VCc+PRZ/ABcBDpnkAW6DMlfhHvC1A+oSTMZNBTW//JADsx6hsAitHRAZRWMM29bMAg==",
+      "path": "tewr.blazor.filereader/1.6.0.20166",
+      "hashPath": "tewr.blazor.filereader.1.6.0.20166.nupkg.sha512"
     },
     "blazormovieswasm.Client/1.0.0": {
       "type": "project",

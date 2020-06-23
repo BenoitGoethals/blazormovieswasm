@@ -393,55 +393,6 @@
       },
       {
         "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.Index",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.Index"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.Index",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazormovieswasm.Client.Pages.Index",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.Index",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
         "Name": "blazormovieswasm.Client.Pages.Movies.MovieDetails",
         "AssemblyName": "blazormovieswasm.Client",
         "Documentation": null,
@@ -593,171 +544,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.Movies.MovieForm",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieForm",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Movie",
-            "TypeName": "blazormovieswasm.Shared.Entities.Movie",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Movie"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnValidSubmit",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "OnValidSubmit",
-              "Components.EventCallback": "True"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "SelectedGenres",
-            "TypeName": "System.Collections.Generic.List<blazormovieswasm.Shared.Entities.Genre>",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "SelectedGenres"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "NotSelectedGenres",
-            "TypeName": "System.Collections.Generic.List<blazormovieswasm.Shared.Entities.Genre>",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "NotSelectedGenres"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.MovieForm"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.Movies.MovieForm",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazormovieswasm.Client.Pages.Movies.MovieForm",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Movie",
-            "TypeName": "blazormovieswasm.Shared.Entities.Movie",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Movie"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "OnValidSubmit",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "OnValidSubmit",
-              "Components.EventCallback": "True"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "SelectedGenres",
-            "TypeName": "System.Collections.Generic.List<blazormovieswasm.Shared.Entities.Genre>",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "SelectedGenres"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "NotSelectedGenres",
-            "TypeName": "System.Collections.Generic.List<blazormovieswasm.Shared.Entities.Genre>",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "NotSelectedGenres"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.MovieForm",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -918,6 +704,199 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.EditMovie",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.Movies.MovieForm",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieForm",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Movie",
+            "TypeName": "blazormovieswasm.Shared.Entities.Movie",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Movie"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnValidSubmit",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "OnValidSubmit",
+              "Components.EventCallback": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedGenres",
+            "TypeName": "System.Collections.Generic.List<blazormovieswasm.Shared.Entities.Genre>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SelectedGenres"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "NotSelectedGenres",
+            "TypeName": "System.Collections.Generic.List<blazormovieswasm.Shared.Entities.Genre>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "NotSelectedGenres"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedActors",
+            "TypeName": "System.Collections.Generic.List<blazormovieswasm.Shared.Entities.Person>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SelectedActors"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.MovieForm"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.Movies.MovieForm",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazormovieswasm.Client.Pages.Movies.MovieForm",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Movie",
+            "TypeName": "blazormovieswasm.Shared.Entities.Movie",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Movie"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "OnValidSubmit",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "OnValidSubmit",
+              "Components.EventCallback": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedGenres",
+            "TypeName": "System.Collections.Generic.List<blazormovieswasm.Shared.Entities.Genre>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SelectedGenres"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "NotSelectedGenres",
+            "TypeName": "System.Collections.Generic.List<blazormovieswasm.Shared.Entities.Genre>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "NotSelectedGenres"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedActors",
+            "TypeName": "System.Collections.Generic.List<blazormovieswasm.Shared.Entities.Person>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SelectedActors"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.MovieForm",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -1204,6 +1183,55 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "blazormovieswasm.Client.Pages.People.PersonForm",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.Index",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.Index"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.Index",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazormovieswasm.Client.Pages.Index",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.Index",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -3375,6 +3403,411 @@
         "Metadata": {
           "Runtime.Name": "Components.None",
           "Common.TypeName": "blazormovieswasm.Client.Shared.CustomTypeahead<TItem>.NotFoundTemplate",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T>",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MultipleSelectorTypeahead",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "T",
+            "TypeName": "System.Type",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "Specifies the type of the type parameter T for the blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T> component.",
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "T",
+              "Components.TypeParameter": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedElements",
+            "TypeName": "System.Collections.Generic.List<T>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SelectedElements",
+              "Components.GenericTyped": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SearchMethod",
+            "TypeName": "System.Func<System.String, System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<T>>>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SearchMethod",
+              "Components.DelegateSignature": "True",
+              "Components.GenericTyped": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "MyResultTemplate",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<T>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "MyResultTemplate",
+              "Components.ChildContent": "True",
+              "Components.GenericTyped": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "MyListTemplate",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<T>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "MyListTemplate",
+              "Components.ChildContent": "True",
+              "Components.GenericTyped": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "Specifies the parameter name for all child content expressions.",
+            "Diagnostics": [],
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T>",
+          "Components.GenericTyped": "True"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T>",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "T",
+            "TypeName": "System.Type",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "Specifies the type of the type parameter T for the blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T> component.",
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "T",
+              "Components.TypeParameter": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SelectedElements",
+            "TypeName": "System.Collections.Generic.List<T>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SelectedElements",
+              "Components.GenericTyped": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "SearchMethod",
+            "TypeName": "System.Func<System.String, System.Threading.Tasks.Task<System.Collections.Generic.IEnumerable<T>>>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "SearchMethod",
+              "Components.DelegateSignature": "True",
+              "Components.GenericTyped": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "MyResultTemplate",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<T>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "MyResultTemplate",
+              "Components.ChildContent": "True",
+              "Components.GenericTyped": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "MyListTemplate",
+            "TypeName": "Microsoft.AspNetCore.Components.RenderFragment<T>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "MyListTemplate",
+              "Components.ChildContent": "True",
+              "Components.GenericTyped": "True"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "Specifies the parameter name for all child content expressions.",
+            "Diagnostics": [],
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T>",
+          "Components.GenericTyped": "True",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.ChildContent",
+        "Name": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T>.MyResultTemplate",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyResultTemplate",
+            "ParentTag": "MultipleSelectorTypeahead",
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "Specifies the parameter name for the 'MyResultTemplate' child content expression.",
+            "Diagnostics": [],
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T>.MyResultTemplate",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "Kind": "Components.ChildContent",
+        "Name": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T>.MyResultTemplate",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyResultTemplate",
+            "ParentTag": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead",
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "Specifies the parameter name for the 'MyResultTemplate' child content expression.",
+            "Diagnostics": [],
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T>.MyResultTemplate",
+          "Components.IsSpecialKind": "Components.ChildContent",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.ChildContent",
+        "Name": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T>.MyListTemplate",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyListTemplate",
+            "ParentTag": "MultipleSelectorTypeahead",
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "Specifies the parameter name for the 'MyListTemplate' child content expression.",
+            "Diagnostics": [],
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T>.MyListTemplate",
+          "Components.IsSpecialKind": "Components.ChildContent"
+        }
+      },
+      {
+        "Kind": "Components.ChildContent",
+        "Name": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T>.MyListTemplate",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MyListTemplate",
+            "ParentTag": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead",
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.ChildContent",
+            "Name": "Context",
+            "TypeName": "System.String",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": "Specifies the parameter name for the 'MyListTemplate' child content expression.",
+            "Diagnostics": [],
+            "Metadata": {
+              "Components.ChildContentParameterName": "True",
+              "Common.PropertyName": "Context"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.None",
+          "Common.TypeName": "blazormovieswasm.Client.Shared.MultipleSelectorTypeahead<T>.MyListTemplate",
           "Components.IsSpecialKind": "Components.ChildContent",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
@@ -19573,6 +20006,11 @@
     {
       "FilePath": "/home/monchkrit/Code-House/blazormovieswasm/Client/Pages/People/PeopleIndex.razor",
       "TargetPath": "Pages\\People\\PeopleIndex.razor",
+      "FileKind": "component"
+    },
+    {
+      "FilePath": "/home/monchkrit/Code-House/blazormovieswasm/Client/Shared/MultipleSelectorTypeahead.razor",
+      "TargetPath": "Shared\\MultipleSelectorTypeahead.razor",
       "FileKind": "component"
     },
     {

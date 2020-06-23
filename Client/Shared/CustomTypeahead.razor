@@ -3,23 +3,24 @@
 
 <div class="blazored-typeahead">
   <div class="blazored-typeahead_controls">
-    <input type="text" class="blazored-typeahead_input" autocomplete="off" placeholder="@Placeholder"
-    @bind-bind-value="@SearchText" @bind-value:event="oninput" @onclick="@ShowSuggestions" @onfocusout="onfocusout" />
+    <input type="text" class="blazored-typeahead__input" autocomplete="off" placeholder="@Placeholder"
+    @bind-value="@SearchText" @bind-value:event="oninput" @onclick="@ShowSuggestions" @onfocusout="onfocusout" />
   </div>
   @if (IsSearching)
   {
-    <div class="blazored-typeahead_results">
-      <div class="blazored-typeahead_results">
+    <div class="blazored-typeahead__results">
+      <div class="blazored-typeahead__results">
         <span>Loading...</span>
       </div>
     </div>
   }
   else if (ShouldShowSuggestions())
   {
-    <div class="blazored-typeahead_results">
+    <div class="blazored-typeahead__results">
       @foreach (var item in Suggestions)
       {
-        <div @key="item" class="blazored-typeahead_result" tabindex="0" @onclick="@(() => SelectSuggestion(item))" >
+        <div @key="item" class="blazored-typeahead__result" tabindex="0" 
+          @onclick="@(() => SelectSuggestion(item))" @onmouseover="OnmouseoverSuggestion" @onmouseout="OnmouseoutSuggestion" >
           @ResultTemplate(item)
         </div>
       }
@@ -27,16 +28,16 @@
   }
   else if (ShowNotFound())
   {
-    <div class="blazored-typeahead_results">
+    <div class="blazored-typeahead__results">
       @if (NotFoundTemplate != null)
       {
-        <div class="blazored-typeahead_notfound">
+        <div class="blazored-typeahead__notfound">
           @NotFoundTemplate
         </div>
       }
       else
       {
-        <div class="blazored-typeahead_notfound">
+        <div class="blazored-typeahead__notfound">
           No results found
         </div>
       }
@@ -72,12 +73,19 @@
     _debounceTimer.Interval = Debounce;
     _debounceTimer.AutoReset = false;
     _debounceTimer.Elapsed += Search;
+
     base.OnInitialized();
   }
 
-  private void SelectSuggestion(TItem item)
+  private bool ShowNotFound()
+  {
+    return !Suggestions.Any() && IsShowingSuggestions;
+  }
+
+  private async Task SelectSuggestion(TItem item)
   {
     SearchText = "";
+    await ValueChanged.InvokeAsync(item);
   }
 
   protected async void Search(Object source, ElapsedEventArgs e)
@@ -103,10 +111,13 @@
       if (value.Length == 0)
       {
         IsShowingSuggestions = false;
+        _debounceTimer.Stop();
+        Suggestions = new TItem[0];
       }
       else if (value.Length >= MinimumLength)
       {
-         
+        _debounceTimer.Stop();
+        _debounceTimer.Start();
       }
     }
   }
@@ -121,11 +132,26 @@
 
   private void onfocusout()
   {
-    IsShowingSuggestions = false;
+    if (!IsMouseInSuggestion)
+    {      
+      IsShowingSuggestions = false;
+    }
   }
 
   private bool ShouldShowSuggestions()
   {
     return IsShowingSuggestions && Suggestions.Any();
+  }
+
+  bool IsMouseInSuggestion = false;
+
+  private void OnmouseoverSuggestion()
+  {
+    IsMouseInSuggestion = true;
+  }
+
+  private void OnmouseoutSuggestion()
+  {
+    IsMouseInSuggestion = false;
   }
 }

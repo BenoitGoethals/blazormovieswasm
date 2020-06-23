@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "9zUE2U/M+QQgJ6RtSoNUhPOe+zWY7fZikUzB+pJyfhMjDVV4SnHItWjS8SFow0Hd2CeK+PhEmtUANZ+vLJ5jeQ==",
+  "dgSpecHash": "ePMzHRLYwwRovFeuMlPcFPKs3INJ/aIU6dI02+GSIloA/p8MtRDG+ZAGkst5IvjGOMnlLIyeggsFMQ9f8MNNqQ==",
   "success": true,
   "projectFilePath": "/home/monchkrit/Code-House/blazormovieswasm/Server/blazormovieswasm.Server.csproj",
   "expectedPackageFiles": [
+    "/home/monchkrit/.nuget/packages/markdig/0.20.0/markdig.0.20.0.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/microsoft.aspnetcore.authorization/3.1.3/microsoft.aspnetcore.authorization.3.1.3.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/microsoft.aspnetcore.components/3.1.3/microsoft.aspnetcore.components.3.1.3.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/microsoft.aspnetcore.components.analyzers/3.1.3/microsoft.aspnetcore.components.analyzers.3.1.3.nupkg.sha512",
@@ -108,7 +109,8 @@
     "/home/monchkrit/.nuget/packages/system.xml.readerwriter/4.3.0/system.xml.readerwriter.4.3.0.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/system.xml.xdocument/4.3.0/system.xml.xdocument.4.3.0.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/system.xml.xmldocument/4.3.0/system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "/home/monchkrit/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "/home/monchkrit/.nuget/packages/system.xml.xmlserializer/4.3.0/system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "/home/monchkrit/.nuget/packages/tewr.blazor.filereader/1.6.0.20166/tewr.blazor.filereader.1.6.0.20166.nupkg.sha512"
   ],
   "logs": []
 }

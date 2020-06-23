@@ -2,6 +2,15 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
+      "Markdig/0.20.0": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.1/Markdig.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/Markdig.dll": {}
+        }
+      },
       "Microsoft.AspNetCore.Authorization/3.1.3": {
         "type": "package",
         "dependencies": {
@@ -1481,13 +1490,33 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Tewr.Blazor.FileReader/1.6.0.20166": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.AspNetCore.Components.Web": "3.1.3",
+          "Microsoft.Bcl.AsyncInterfaces": "1.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Blazor.FileReader.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Blazor.FileReader.dll": {}
+        },
+        "build": {
+          "buildTransitive/Tewr.Blazor.FileReader.props": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Tewr.Blazor.FileReader.props": {}
+        }
+      },
       "blazormovieswasm.Client/1.0.0": {
         "type": "project",
         "framework": ".NETStandard,Version=v2.1",
         "dependencies": {
+          "Markdig": "0.20.0",
           "Microsoft.AspNetCore.Components.WebAssembly": "3.2.0",
-          "System.ComponentModel.Annotations": "4.7.0",
           "System.Net.Http.Json": "3.2.0",
+          "Tewr.Blazor.FileReader": "1.6.0.20166",
           "blazormovieswasm.Shared": "1.0.0"
         },
         "compile": {
@@ -1513,6 +1542,25 @@
     }
   },
   "libraries": {
+    "Markdig/0.20.0": {
+      "sha512": "49Kuof5GSRdTnXlDvZ/+ucABl9l5oPA/jpIkFK8Zcnc0NiETj+rf5f4xoNr52a4Hs1DlcJmrRHv4xvZHMxnDFQ==",
+      "type": "package",
+      "path": "markdig/0.20.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp2.1/Markdig.dll",
+        "lib/netcoreapp2.1/Markdig.xml",
+        "lib/netcoreapp3.1/Markdig.dll",
+        "lib/netcoreapp3.1/Markdig.xml",
+        "lib/netstandard2.0/Markdig.dll",
+        "lib/netstandard2.0/Markdig.xml",
+        "lib/netstandard2.1/Markdig.dll",
+        "lib/netstandard2.1/Markdig.xml",
+        "markdig.0.20.0.nupkg.sha512",
+        "markdig.nuspec"
+      ]
+    },
     "Microsoft.AspNetCore.Authorization/3.1.3": {
       "sha512": "ujHcZtQJcloThrt7NFQtUU9wqM1RsiItSQTz+W9yKyGrsWQyNnQY+lJvpUCVHzOqaQrxKRV4AHdUxtGquQPTcg==",
       "type": "package",
@@ -5531,6 +5579,26 @@
         "system.xml.xmlserializer.nuspec"
       ]
     },
+    "Tewr.Blazor.FileReader/1.6.0.20166": {
+      "sha512": "wAWZrfKFWXJCpi+gH816VCc+PRZ/ABcBDpnkAW6DMlfhHvC1A+oSTMZNBTW//JADsx6hsAitHRAZRWMM29bMAg==",
+      "type": "package",
+      "path": "tewr.blazor.filereader/1.6.0.20166",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.AspNetCore.StaticWebAssets.props",
+        "build/Tewr.Blazor.FileReader.props",
+        "buildMultiTargeting/Tewr.Blazor.FileReader.props",
+        "buildTransitive/Tewr.Blazor.FileReader.props",
+        "icon.png",
+        "lib/netstandard2.0/Blazor.FileReader.dll",
+        "lib/netstandard2.0/Blazor.FileReader.xml",
+        "staticwebassets/FileReaderComponent.js",
+        "staticwebassets/FileReaderComponent.js.map",
+        "tewr.blazor.filereader.1.6.0.20166.nupkg.sha512",
+        "tewr.blazor.filereader.nuspec"
+      ]
+    },
     "blazormovieswasm.Client/1.0.0": {
       "type": "project",
       "path": "../Client/blazormovieswasm.Client.csproj",
@@ -5547,7 +5615,6 @@
       "Microsoft.AspNetCore.Components.WebAssembly.Server >= 3.2.0",
       "Microsoft.EntityFrameworkCore.Design >= 3.1.5",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.5",
-      "System.ComponentModel.Annotations >= 4.7.0",
       "blazormovieswasm.Client >= 1.0.0",
       "blazormovieswasm.Shared >= 1.0.0"
     ]
@@ -5607,10 +5674,6 @@
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",
             "version": "[3.1.5, )"
-          },
-          "System.ComponentModel.Annotations": {
-            "target": "Package",
-            "version": "[4.7.0, )"
           }
         },
         "imports": [

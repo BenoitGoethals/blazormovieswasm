@@ -40,6 +40,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "Markdig": {
+              "target": "Package",
+              "version": "[0.20.0, )"
+            },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
               "version": "[3.2.0, )"
@@ -54,13 +58,13 @@
               "target": "Package",
               "version": "[3.2.0, )"
             },
-            "System.ComponentModel.Annotations": {
-              "target": "Package",
-              "version": "[4.7.0, )"
-            },
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[3.2.0, )"
+            },
+            "Tewr.Blazor.FileReader": {
+              "target": "Package",
+              "version": "[1.6.0.20166, )"
             }
           },
           "imports": [
@@ -134,10 +138,6 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.5, )"
-            },
-            "System.ComponentModel.Annotations": {
-              "target": "Package",
-              "version": "[4.7.0, )"
             }
           },
           "imports": [
