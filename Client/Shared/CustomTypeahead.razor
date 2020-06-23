@@ -1,0 +1,131 @@
+﻿@using System.Timers
+@typeparam TItem
+
+<div class="blazored-typeahead">
+  <div class="blazored-typeahead_controls">
+    <input type="text" class="blazored-typeahead_input" autocomplete="off" placeholder="@Placeholder"
+    @bind-bind-value="@SearchText" @bind-value:event="oninput" @onclick="@ShowSuggestions" @onfocusout="onfocusout" />
+  </div>
+  @if (IsSearching)
+  {
+    <div class="blazored-typeahead_results">
+      <div class="blazored-typeahead_results">
+        <span>Loading...</span>
+      </div>
+    </div>
+  }
+  else if (ShouldShowSuggestions())
+  {
+    <div class="blazored-typeahead_results">
+      @foreach (var item in Suggestions)
+      {
+        <div @key="item" class="blazored-typeahead_result" tabindex="0" @onclick="@(() => SelectSuggestion(item))" >
+          @ResultTemplate(item)
+        </div>
+      }
+    </div>
+  }
+  else if (ShowNotFound())
+  {
+    <div class="blazored-typeahead_results">
+      @if (NotFoundTemplate != null)
+      {
+        <div class="blazored-typeahead_notfound">
+          @NotFoundTemplate
+        </div>
+      }
+      else
+      {
+        <div class="blazored-typeahead_notfound">
+          No results found
+        </div>
+      }
+    </div>
+  }
+</div>
+
+@code {
+  [Parameter] 
+  public string Placeholder { get; set; }
+  [Parameter]
+  public int MinimumLength { get; set; } = 3;
+  [Parameter]
+  public int Debounce { get; set; } = 300;
+  [Parameter]
+  public Func<string, Task<IEnumerable<TItem>>> SearchMethod { get; set; }
+  [Parameter] 
+  public RenderFragment<TItem> ResultTemplate { get; set; }
+  [Parameter]
+  public RenderFragment NotFoundTemplate { get; set; }
+  [Parameter]
+  public EventCallback<TItem> ValueChanged { get; set; }
+
+  private Timer _debounceTimer;
+  private bool IsSearching = false;
+  private bool IsShowingSuggestions = false;
+  private string _searchText = string.Empty;
+  protected TItem[] Suggestions { get; set; } = new TItem[0];
+
+  protected override void OnInitialized()
+  {
+    _debounceTimer = new Timer();
+    _debounceTimer.Interval = Debounce;
+    _debounceTimer.AutoReset = false;
+    _debounceTimer.Elapsed += Search;
+    base.OnInitialized();
+  }
+
+  private void SelectSuggestion(TItem item)
+  {
+    SearchText = "";
+  }
+
+  protected async void Search(Object source, ElapsedEventArgs e)
+  {
+    IsSearching = true;
+    IsShowingSuggestions = false;
+    await InvokeAsync(StateHasChanged);
+
+    Suggestions = (await SearchMethod.Invoke(_searchText)).ToArray();
+
+    IsSearching = false;
+    IsShowingSuggestions = true;
+    await InvokeAsync(StateHasChanged);
+  }
+
+  private string SearchText
+  {
+    get => _searchText;
+    set
+    {
+      _searchText = value;
+
+      if (value.Length == 0)
+      {
+        IsShowingSuggestions = false;
+      }
+      else if (value.Length >= MinimumLength)
+      {
+         
+      }
+    }
+  }
+
+  private void ShowSuggestions()
+  {
+    if (Suggestions.Any())
+    {
+      IsShowingSuggestions = true;
+    }
+  }
+
+  private void onfocusout()
+  {
+    IsShowingSuggestions = false;
+  }
+
+  private bool ShouldShowSuggestions()
+  {
+    return IsShowingSuggestions && Suggestions.Any();
+  }
+}

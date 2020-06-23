@@ -3,12 +3,19 @@
 
 <h3>Create Movie</h3>
 
-<MovieForm Movie="Movie" OnValidSubmit="AddMovie" />
+<MovieForm Movie="Movie" OnValidSubmit="AddMovie" NotSelectedGenres="NotSelectedGenres" />
 
 @code {
-  private Movie Movie = new Movie();
   [Parameter]
   public EventCallback OnValidSubmit { get; set; }
+  
+  private Movie Movie = new Movie();
+  private List<Genre> NotSelectedGenres = new List<Genre>()
+  {
+    new Genre() { Id = 1, Name = "Action" },
+    new Genre() { Id = 2, Name = "Comedy" },
+    new Genre() { Id = 3, Name = "Drama " }
+  };
 
   private void AddMovie() {
     System.Console.WriteLine($"Movie {Movie.Title} created");
