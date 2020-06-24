@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ePMzHRLYwwRovFeuMlPcFPKs3INJ/aIU6dI02+GSIloA/p8MtRDG+ZAGkst5IvjGOMnlLIyeggsFMQ9f8MNNqQ==",
+  "dgSpecHash": "6zTafFRsBRPC0wcNeRaEL+lGhTf7ZDxH5cO+UAgmYM+x4ilk3FjECAZvEunbKygPefdh0XynVE2grNA0A9nEAA==",
   "success": true,
   "projectFilePath": "/home/monchkrit/Code-House/blazormovieswasm/Server/blazormovieswasm.Server.csproj",
   "expectedPackageFiles": [
@@ -24,6 +24,7 @@
     "/home/monchkrit/.nuget/packages/microsoft.entityframeworkcore.design/3.1.5/microsoft.entityframeworkcore.design.3.1.5.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/microsoft.entityframeworkcore.relational/3.1.5/microsoft.entityframeworkcore.relational.3.1.5.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/microsoft.entityframeworkcore.sqlserver/3.1.5/microsoft.entityframeworkcore.sqlserver.3.1.5.nupkg.sha512",
+    "/home/monchkrit/.nuget/packages/microsoft.entityframeworkcore.tools/3.1.5/microsoft.entityframeworkcore.tools.3.1.5.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/microsoft.extensions.caching.abstractions/3.1.5/microsoft.extensions.caching.abstractions.3.1.5.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/microsoft.extensions.caching.memory/3.1.5/microsoft.extensions.caching.memory.3.1.5.nupkg.sha512",
     "/home/monchkrit/.nuget/packages/microsoft.extensions.configuration/3.1.5/microsoft.extensions.configuration.3.1.5.nupkg.sha512",

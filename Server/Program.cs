@@ -22,5 +22,6 @@ namespace blazormovieswasm.Server
                 {
                     webBuilder.UseStartup<Startup>();
                 });
+                
     }
 }

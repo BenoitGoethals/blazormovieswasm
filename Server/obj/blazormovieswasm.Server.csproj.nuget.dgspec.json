@@ -138,6 +138,12 @@
             "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[3.1.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.5, )"
             }
           },
           "imports": [
@@ -194,6 +200,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.5, )"
+            },
             "System.ComponentModel.Annotations": {
               "target": "Package",
               "version": "[4.7.0, )"
