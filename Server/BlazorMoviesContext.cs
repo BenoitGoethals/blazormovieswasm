@@ -22,7 +22,7 @@ namespace blazormovieswasm.Server
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
       optionsBuilder.UseSqlServer(
-        @"Server=localhost;Database=blazormovieswasm;User Id=blazormoviesuser;Password=dxuP!3284");
+        @"Server=localhost;Database=blazormovieswasm;User Id=blazormoviesuser;Password=88%sr0wr6");
     }
   }
 }
