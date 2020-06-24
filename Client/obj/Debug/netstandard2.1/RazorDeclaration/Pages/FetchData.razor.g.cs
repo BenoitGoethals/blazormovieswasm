@@ -78,7 +78,21 @@ using blazormovieswasm.Client.Shared;
 #nullable disable
 #nullable restore
 #line 11 "/home/monchkrit/Code-House/blazormovieswasm/Client/_Imports.razor"
+using blazormovieswasm.Shared.Entities;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 12 "/home/monchkrit/Code-House/blazormovieswasm/Client/_Imports.razor"
 using blazormovieswasm.Client.Helpers;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
+#line 13 "/home/monchkrit/Code-House/blazormovieswasm/Client/_Imports.razor"
+using blazormovieswasm.Client.Repository;
 
 #line default
 #line hidden

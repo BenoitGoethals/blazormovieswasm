@@ -127,3 +127,7 @@
 /home/monchkrit/Code-House/blazormovieswasm/Server/bin/Debug/netcoreapp3.1/Markdig.dll
 /home/monchkrit/Code-House/blazormovieswasm/Server/bin/Debug/netcoreapp3.1/Microsoft.EntityFrameworkCore.Design.dll
 /home/monchkrit/Code-House/blazormovieswasm/Server/bin/Debug/netcoreapp3.1/Blazor.FileReader.dll
+/home/monchkrit/Code-House/blazormovieswasm/Server/bin/Debug/netcoreapp3.1/Microsoft.Azure.KeyVault.Core.dll
+/home/monchkrit/Code-House/blazormovieswasm/Server/bin/Debug/netcoreapp3.1/Microsoft.Azure.Storage.Blob.dll
+/home/monchkrit/Code-House/blazormovieswasm/Server/bin/Debug/netcoreapp3.1/Microsoft.Azure.Storage.Common.dll
+/home/monchkrit/Code-House/blazormovieswasm/Server/bin/Debug/netcoreapp3.1/Newtonsoft.Json.dll
