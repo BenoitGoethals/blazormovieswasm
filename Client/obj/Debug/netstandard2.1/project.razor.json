@@ -107,6 +107,55 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.Genres.CreateGenre",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CreateGenre",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.Genres.CreateGenre"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.Genres.CreateGenre",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazormovieswasm.Client.Pages.Genres.CreateGenre",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.Genres.CreateGenre",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "blazormovieswasm.Client.Pages.Genres.EditGenre",
         "AssemblyName": "blazormovieswasm.Client",
         "Documentation": null,
@@ -339,55 +388,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "blazormovieswasm.Client.Pages.Genres.GenresIndex",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.Genres.CreateGenre",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CreateGenre",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.Genres.CreateGenre"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.Genres.CreateGenre",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazormovieswasm.Client.Pages.Genres.CreateGenre",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.Genres.CreateGenre",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -951,6 +951,55 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.People.CreatePerson",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "CreatePerson",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.People.CreatePerson"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.People.CreatePerson",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazormovieswasm.Client.Pages.People.CreatePerson",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.People.CreatePerson",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "blazormovieswasm.Client.Pages.People.EditPerson",
         "AssemblyName": "blazormovieswasm.Client",
         "Documentation": null,
@@ -1183,55 +1232,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "blazormovieswasm.Client.Pages.People.PersonForm",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.People.CreatePerson",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "CreatePerson",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.People.CreatePerson"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.People.CreatePerson",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazormovieswasm.Client.Pages.People.CreatePerson",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.People.CreatePerson",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
