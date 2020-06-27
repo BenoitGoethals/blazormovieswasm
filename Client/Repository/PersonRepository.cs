@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 using blazormovieswasm.Client.Helpers;
 using blazormovieswasm.Shared.Entities;
@@ -13,6 +14,16 @@ namespace blazormovieswasm.Client.Repository
     public PersonRepository(IHttpService httpService)
     {
       this.httpService = httpService;
+    }
+
+    public async Task<List<Person>> GetPeople()
+    {
+      var response = await httpService.Get<List<Person>>(url);
+      if (!response.Success)
+      {
+        throw new ApplicationException(await response.GetBody());
+      }
+      return response.Response;
     }
 
     public async Task CreatePerson(Person person)

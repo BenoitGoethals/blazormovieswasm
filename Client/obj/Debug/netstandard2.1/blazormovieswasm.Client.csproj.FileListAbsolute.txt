@@ -472,8 +472,8 @@
 /home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/jpSRfsr97m71a5QnEO1fl_9W77vUeIRmfbXCSJLLg-8=.hash
 /home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/HR6KlO-LBLOOHVTHhgZoGSrhXlm2OrF3i2SmRz5khsM=.hash
 /home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/piyTL6bW9vcvIWAkeTPE6lu-1A11BCtZrRJTKTa1sZM=.hash
-/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/-zR0NMtifBPnzGptgxMThicX9H1DAIOuT6wKL0or8t4=.hash
-/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/BcSJS5Yy7JXVohp4R6dNd0F5gx9hA_Zzg2Bi9CSduTc=.hash
-/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/LpjrzR95A60hueXSWU4GpXOS5-0aLaJ94GfhcX42KVk=.hash
-/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/1B4hMRkR5B4yznJvPsuAz4VVU7M4q-UE5CI6HhPM8XM=.hash
-/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/12KIdCZm_6EOE_rrIVD5IbyJhqJJnOzR9EFVuKq8cWw=.hash
+/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/wTK51aCQpllf8aBGprB-xMaxoJwEQdZLX1lykTdPZ9I=.hash
+/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/EBC9Cmny6NdJqV7QwasRFOU2VmjLgZ1Di2Mi1sQpGOg=.hash
+/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/ZDDuhAhRlR2rIzfmU7Kot7g3G-gJIyP859Tabgoe-4A=.hash
+/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/hz8efwn5s_edSjbnPNp7MdasdmSkZcOD0ZXIqHU7cMI=.hash
+/home/monchkrit/Code-House/blazormovieswasm/Client/obj/Debug/netstandard2.1/integrity/oVd9J9VQv369ZPxqTviMWOU_FcZSMUqGtdbUI_1H2Hs=.hash
