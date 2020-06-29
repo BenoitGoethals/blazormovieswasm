@@ -131,13 +131,13 @@ namespace blazormovieswasm.Server.Migrations
             modelBuilder.Entity("blazormovieswasm.Shared.Entities.MoviesActors", b =>
                 {
                     b.HasOne("blazormovieswasm.Shared.Entities.Movie", "Movie")
-                        .WithMany()
+                        .WithMany("MoviesActors")
                         .HasForeignKey("MovieId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("blazormovieswasm.Shared.Entities.Person", "Person")
-                        .WithMany()
+                        .WithMany("MoviesActors")
                         .HasForeignKey("PersonId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();

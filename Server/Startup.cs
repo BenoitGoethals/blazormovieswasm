@@ -23,9 +23,9 @@ namespace blazormovieswasm.Server
         {
             services.AddDbContext<BlazorMoviesContext>(options =>
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            //services.AddScoped<IFileStorageService, AzureStorageService>();
+            services.AddScoped<IFileStorageService, AzureStorageService>();
             services.AddHttpContextAccessor();
-            services.AddScoped<IFileStorageService, InAppStorageService>();
+            //services.AddScoped<IFileStorageService, InAppStorageService>();
             services.AddControllersWithViews();
             services.AddRazorPages();
         }
