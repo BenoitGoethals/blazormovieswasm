@@ -101,6 +101,13 @@ using blazormovieswasm.Client.Repository;
 #line hidden
 #nullable disable
 #nullable restore
+#line 14 "/home/monchkrit/Code-House/blazormovieswasm/Client/_Imports.razor"
+using blazormovieswasm.Shared.Dtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 1 "/home/monchkrit/Code-House/blazormovieswasm/Client/Shared/CustomTypeahead.razor"
 using System.Timers;
 

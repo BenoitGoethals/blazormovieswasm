@@ -16,6 +16,18 @@ namespace blazormovieswasm.Client.Repository
       this.httpService = httpService;
     }
 
+    public async Task<MovieDetailsDto> GetMovieDetailsDto(int id) => await Get<MovieDetailsDto>($"{url}/{id}");
+
+    public async Task<T> Get<T>(string url)
+    {
+      var response = await httpService.Get<T>(url);
+      if (!response.Success)
+      {
+        throw new ApplicationException(await response.GetBody());
+      }
+      return response.Response;
+    }
+
     public async Task<IndexPageDto> GetIndexPageDto()
     {
       var response = await httpService.Get<IndexPageDto>(url);

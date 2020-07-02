@@ -26,6 +26,9 @@ namespace blazormovieswasm.Server
             services.AddScoped<IFileStorageService, AzureStorageService>();
             services.AddHttpContextAccessor();
             //services.AddScoped<IFileStorageService, InAppStorageService>();
+            services.AddMvc()
+                .AddNewtonsoftJson(options =>
+                options.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore);
             services.AddControllersWithViews();
             services.AddRazorPages();
         }

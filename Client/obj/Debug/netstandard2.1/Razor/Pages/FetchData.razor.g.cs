@@ -94,6 +94,13 @@ using blazormovieswasm.Client.Repository;
 #line hidden
 #nullable disable
 #nullable restore
+#line 14 "/home/monchkrit/Code-House/blazormovieswasm/Client/_Imports.razor"
+using blazormovieswasm.Shared.Dtos;
+
+#line default
+#line hidden
+#nullable disable
+#nullable restore
 #line 2 "/home/monchkrit/Code-House/blazormovieswasm/Client/Pages/FetchData.razor"
 using blazormovieswasm.Shared;
 

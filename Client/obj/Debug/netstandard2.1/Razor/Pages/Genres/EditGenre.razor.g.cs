@@ -100,6 +100,13 @@ using blazormovieswasm.Client.Repository;
 #line default
 #line hidden
 #nullable disable
+#nullable restore
+#line 14 "/home/monchkrit/Code-House/blazormovieswasm/Client/_Imports.razor"
+using blazormovieswasm.Shared.Dtos;
+
+#line default
+#line hidden
+#nullable disable
     [Microsoft.AspNetCore.Components.RouteAttribute("/genre/edit/{GenreId:int}")]
     public partial class EditGenre : Microsoft.AspNetCore.Components.ComponentBase
     {

@@ -1,16 +1,38 @@
 ﻿@page "/movie/{MovieId:int}"
 @page "/movie/{MovieId:int}/{MovieName}"
+@inject IMovieRepository movieRepository
 
-<h3>MovieDetails</h3>
+@if (model == null)
+{
+  <text>Loading...</text>
+}
+
+else
+{
+  <h2>@model.Movie.Title (@model.Movie.ReleaseDate.Value.ToString("yyyy"))</h2>
+  for (int i = 0; i < model.Genres.Count; i++)
+  {
+    if (i < model.Genres.Count - 1)
+    {      
+      @linkGenre(model.Genres[i])<text>, </text>;
+    }
+    else
+    {
+      @linkGenre(model.Genres[i])
+    }
+  }
+}
 
 @code {
   [Parameter]
   public int MovieId { get; set; }
   [Parameter]
   public string MovieName { get; set; }
+  private RenderFragment<Genre> linkGenre = (genre) => @<a href="movies/search?genreId=@genre.Id">@genre.Name</a>;
+  MovieDetailsDto model;
 
-  protected override void OnInitialized()
+  protected async override Task OnInitializedAsync()
   {
-    System.Console.WriteLine($"The value of the route parameter is {MovieId}/{MovieName}");
+    model = await movieRepository.GetMovieDetailsDto(MovieId);
   }
 }
