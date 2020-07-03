@@ -570,6 +570,55 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "MovieFilter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.MovieFilter"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "blazormovieswasm.Client.Pages.Movies.MovieForm",
         "AssemblyName": "blazormovieswasm.Client",
         "Documentation": null,
@@ -758,55 +807,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.MovieForm",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "MovieFilter",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.MovieFilter"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Pages.Movies.MovieFilter",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
@@ -2569,6 +2569,115 @@
       },
       {
         "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Shared.IndividualMovie",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "IndividualMovie",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Movie",
+            "TypeName": "blazormovieswasm.Shared.Entities.Movie",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Movie"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DeleteMovie",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<blazormovieswasm.Shared.Entities.Movie>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "DeleteMovie",
+              "Components.EventCallback": "True"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Shared.IndividualMovie"
+        }
+      },
+      {
+        "Kind": "Components.Component",
+        "Name": "blazormovieswasm.Client.Shared.IndividualMovie",
+        "AssemblyName": "blazormovieswasm.Client",
+        "Documentation": null,
+        "TagOutputHint": null,
+        "CaseSensitive": true,
+        "TagMatchingRules": [
+          {
+            "TagName": "blazormovieswasm.Client.Shared.IndividualMovie",
+            "ParentTag": null,
+            "TagStructure": 0,
+            "Attributes": [],
+            "Diagnostics": []
+          }
+        ],
+        "BoundAttributes": [
+          {
+            "Kind": "Components.Component",
+            "Name": "Movie",
+            "TypeName": "blazormovieswasm.Shared.Entities.Movie",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "Movie"
+            },
+            "BoundAttributeParameters": []
+          },
+          {
+            "Kind": "Components.Component",
+            "Name": "DeleteMovie",
+            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<blazormovieswasm.Shared.Entities.Movie>",
+            "IsEnum": false,
+            "IndexerNamePrefix": null,
+            "IndexerTypeName": null,
+            "Documentation": null,
+            "Diagnostics": [],
+            "Metadata": {
+              "Common.PropertyName": "DeleteMovie",
+              "Components.EventCallback": "True"
+            },
+            "BoundAttributeParameters": []
+          }
+        ],
+        "AllowedChildTags": [],
+        "Diagnostics": [],
+        "Metadata": {
+          "Runtime.Name": "Components.IComponent",
+          "Common.TypeName": "blazormovieswasm.Client.Shared.IndividualMovie",
+          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
+        }
+      },
+      {
+        "Kind": "Components.Component",
         "Name": "blazormovieswasm.Client.Shared.InputMarkdown<TValue>",
         "AssemblyName": "blazormovieswasm.Client",
         "Documentation": null,
@@ -3749,115 +3858,6 @@
         "Metadata": {
           "Runtime.Name": "Components.IComponent",
           "Common.TypeName": "blazormovieswasm.Client.Shared.SurveyPrompt",
-          "Components.NameMatch": "Components.FullyQualifiedNameMatch"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Shared.IndividualMovie",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "IndividualMovie",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Movie",
-            "TypeName": "blazormovieswasm.Shared.Entities.Movie",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Movie"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "DeleteMovie",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<blazormovieswasm.Shared.Entities.Movie>",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "DeleteMovie",
-              "Components.EventCallback": "True"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Shared.IndividualMovie"
-        }
-      },
-      {
-        "Kind": "Components.Component",
-        "Name": "blazormovieswasm.Client.Shared.IndividualMovie",
-        "AssemblyName": "blazormovieswasm.Client",
-        "Documentation": null,
-        "TagOutputHint": null,
-        "CaseSensitive": true,
-        "TagMatchingRules": [
-          {
-            "TagName": "blazormovieswasm.Client.Shared.IndividualMovie",
-            "ParentTag": null,
-            "TagStructure": 0,
-            "Attributes": [],
-            "Diagnostics": []
-          }
-        ],
-        "BoundAttributes": [
-          {
-            "Kind": "Components.Component",
-            "Name": "Movie",
-            "TypeName": "blazormovieswasm.Shared.Entities.Movie",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "Movie"
-            },
-            "BoundAttributeParameters": []
-          },
-          {
-            "Kind": "Components.Component",
-            "Name": "DeleteMovie",
-            "TypeName": "Microsoft.AspNetCore.Components.EventCallback<blazormovieswasm.Shared.Entities.Movie>",
-            "IsEnum": false,
-            "IndexerNamePrefix": null,
-            "IndexerTypeName": null,
-            "Documentation": null,
-            "Diagnostics": [],
-            "Metadata": {
-              "Common.PropertyName": "DeleteMovie",
-              "Components.EventCallback": "True"
-            },
-            "BoundAttributeParameters": []
-          }
-        ],
-        "AllowedChildTags": [],
-        "Diagnostics": [],
-        "Metadata": {
-          "Runtime.Name": "Components.IComponent",
-          "Common.TypeName": "blazormovieswasm.Client.Shared.IndividualMovie",
           "Components.NameMatch": "Components.FullyQualifiedNameMatch"
         }
       },
